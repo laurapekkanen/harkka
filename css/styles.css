@@ -1,3 +1,7 @@
+body{
+    background-image: url(../img/bg_doodles.png);
+}
+
 nav {
     background-color: darkslategrey;
 }
@@ -25,6 +29,7 @@ img:hover {
     z-index: 1;
 }
 
+/*hover animation*/
 .img-container {
   position: relative;
   width: 33%;
@@ -63,3 +68,4 @@ img:hover {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
+/******/
