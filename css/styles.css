@@ -167,7 +167,10 @@ figure {
     color: #e0dd33;
 }
 
-
+footer {
+    margin-top: 50px;
+    padding-bottom: 15px;
+}
 
 /*big screens*/
 @media (min-width: 1080px){  
@@ -186,15 +189,47 @@ figure {
         width: 50%;
     }
     
-     .input-field{
-        width: 30%;
-        display: inline-block;
-        margin-right: 15px;
-        margin-bottom: 0;
+    nav .input-field {
+        width: 80%;
+        /*padding: 0 32px;*/
+        margin: 0 32px;
     }
     
-    section a  {
-        width: 5px;
+    .input-field label {
+        font-size: 14px;
+        font-weight: 500;
+    }
+    
+    nav .btn {
+      margin: 0 32px;
+    }
+    
+    section {
+        display: none;
+    }
+    
+    .overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #fff;
+        overflow: hidden;
+        width: 100%;
+        height: 20%;
+        transition: .5s ease;
+        opacity: 0.8; 
+
+    }
+    
+    .img-container figure .image {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    
+    .img-container:hover .image {
+        -webkit-transform: scale(1);
+        transform: scale(1);
     }
 }
 
@@ -204,4 +239,21 @@ figure {
         width: 100%;
     }
     
+    section {
+        height: auto;
+        text-align: center;
+    }
+    
+    section p {
+        display: block;
+    }
+    
+    .input-field {
+        display: block;
+        width: 100%;
+    }
+    
+    section a {
+        width: 100%;
+    }
 }
