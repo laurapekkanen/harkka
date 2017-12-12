@@ -4,6 +4,17 @@
     box-sizing: border-box;
 }
 
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+/*nav*/
 nav {
     /*background-color: #000;*/
 }
@@ -17,6 +28,7 @@ nav {
     margin-left: 10px;
 }
 
+/*index*/
 header {
     width: auto;
     margin: 0 auto;
@@ -168,6 +180,36 @@ figure {
 footer {
     margin-top: 50px;
     padding-bottom: 15px;
+}
+
+/*profile page*/
+
+.profile-info {
+    width: 100%;
+    display: flex;
+}
+
+.img-profile {
+    width: 20%;
+    margin: 0;
+
+}
+
+.img-profile img {
+    width: 100%;
+    
+}
+
+.profile-text {
+    width: 80%;
+    margin: 0;
+}
+
+.img-container-profile {
+    width: 25%;
+    position: relative;
+    display: inline-block;
+    border: 5px transparent solid; 
 }
 
 /*big screens*/
