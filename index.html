@@ -16,87 +16,91 @@
     </head>
 
     <body>
-        
+        <!--NAV-->
         <div class="navbar-fixed">
-        <nav>
-            <div class="nav-wrapper">
-              <a href="#" class="brand-logo">Artify</a>
-              <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-              <ul class="right hide-on-med-and-down">
-                <li><a href="#"><i class="material-icons left">home</i>Home</a></li>
-                <li><a href="#"><i class="material-icons left">search</i>Search</a></li>
-                <li><a href="#"><i class="material-icons left">add_a_photo</i>Upload</a></li>
-                <li><a href="#"><i class="material-icons left">account_circle</i>Profile</a></li>
-              </ul>
-              <ul class="side-nav" id="mobile-demo">
-                <li><a href="#"><i class="material-icons left">home</i>Home</a></li>
-                <li><a href="#"><i class="material-icons left">search</i>Search</a></li>
-                <li><a href="#"><i class="material-icons left">add_a_photo</i>Upload</a></li>
-                <li><a href="#"><i class="material-icons left">account_circle</i>Profile</a></li><br>
-                <li><a href="#">Sort content</a></li>
-                <li> 
-                    <div class="input-field">
-                        <select multiple>
-                          <option value="" disabled selected>Type</option>
-                          <option value="1">Sketch</option>
-                          <option value="2">Photpgraph</option>
-                          <option value="3">Painting</option>
-                        </select>
-                        <label>Type</label>
-                    </div>
-                </li>
-                <li>
-                    <div class="input-field">
-                        <select multiple>
-                          <option value="" disabled selected>Popularity</option>
-                          <option value="1">Top today</option>
-                          <option value="2">Top this week</option>
-                          <option value="3">Best of the best</option>
-                        </select>
-                        <label>Popularity</label>
-                    </div>
-                </li>
-                <a class="waves-effect waves-light btn"><i class="material-icons right">search</i>sort</a>
-              </ul>
-                
-                
-            </div>
-          </nav>
+            <nav>
+                <div class="nav-wrapper">
+                  <a href="#" class="brand-logo">Artify</a>
+                  <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                  <ul class="right hide-on-med-and-down">
+                    <li><a href="#"><i class="material-icons left">home</i>Home</a></li>
+                    <li><a href="#"><i class="material-icons left">search</i>Search</a></li>
+                    <li><a href="#"><i class="material-icons left">add_a_photo</i>Upload</a></li>
+                    <li><a href="#"><i class="material-icons left">account_circle</i>Profile</a></li>
+                  </ul>
+                    <!--MOBILE NAV-->
+                  <ul class="side-nav" id="mobile-demo">
+                    <li><a href="#"><i class="material-icons left">home</i>Home</a></li>
+                    <li><a href="#"><i class="material-icons left">search</i>Search</a></li>
+                    <li><a href="#"><i class="material-icons left">add_a_photo</i>Upload</a></li>
+                    <li><a href="#"><i class="material-icons left">account_circle</i>Profile</a></li><br>
+                      <!--SORT CONTENT IN MOBILE NAV-->
+                    <li><a href="#">Sort content</a></li>
+                    <li> 
+                        <div class="input-field">
+                            <select multiple>
+                              <option value="" disabled selected>Type</option>
+                              <option value="1">Sketch</option>
+                              <option value="2">Photpgraph</option>
+                              <option value="3">Painting</option>
+                            </select>
+                            <label>Type</label>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="input-field">
+                            <select multiple>
+                              <option value="" disabled selected>Popularity</option>
+                              <option value="1">Top today</option>
+                              <option value="2">Top this week</option>
+                              <option value="3">Best of the best</option>
+                            </select>
+                            <label>Popularity</label>
+                        </div>
+                    </li>
+                    <a class="waves-effect waves-light btn"><i class="material-icons right">search</i>sort</a>
+                  </ul>
+                </div>
+            </nav>
         </div>
-        
-        <header>
-            <h2>Welcome to Artify!</h2> 
-            <section>
-                <p>Sort content by</p>
-                <div class="input-field">
-                    <select multiple>
-                      <option value="" disabled selected>Type</option>
-                      <option value="1">Sketch</option>
-                      <option value="2">Photpgraph</option>
-                      <option value="3">Painting</option>
-                    </select>
-                </div>
-                <div class="input-field">
-                    <select multiple>
-                      <option value="" disabled selected>Popularity</option>
-                      <option value="1">Top today</option>
-                      <option value="2">Top this week</option>
-                      <option value="3">Best of the best</option>
-                    </select>
-                </div>
-                <a class="waves-effect waves-light btn"><i class="material-icons right">search</i>sort</a>
-            </section>
-        </header>
-        
+        <!--HEADER-->
+        <div class="container">
+            <header>
+                <h2>Welcome to Artify!</h2>
+                    <!--SORT CONTENT IN DESKTOP-->
+                    <section>
+                        <p>Sort content by</p>
+                        <div class="input-field">
+                            <select multiple>
+                              <option value="" disabled selected>Type</option>
+                              <option value="1">Sketch</option>
+                              <option value="2">Photpgraph</option>
+                              <option value="3">Painting</option>
+                            </select>
+                        </div>
+                        <div class="input-field">
+                            <select multiple>
+                              <option value="" disabled selected>Popularity</option>
+                              <option value="1">Top today</option>
+                              <option value="2">Top this week</option>
+                              <option value="3">Best of the best</option>
+                            </select>
+                        </div>
+                        <a class="waves-effect waves-light btn"><i class="material-icons right">search</i>sort</a>
+                    </section>
+            </header>
+        </div>
+        <!--MAIN CONTENT-->
         <main>
             <div class="container">
+                
                 <!--one post-->
                 <div class="img-container">
                     <figure>
                         <img class="image" src="img/thumbnails/t_escort.jpg">
                     </figure>
                     <!--hover text field-->
-                    <div class="overlay">
+                    <div class="overlay valign-wrapper">
                         <div class="text">
                             <div class="text_left">
                                 <a href="#" >some nerd</a>
@@ -311,7 +315,7 @@
 
             </div><!--ends container-->
         </main>
-        
+        <!--FOOTER-->
         <footer class="page-footer">
             <div class="container">
                 © 2017 Laura Pekkanen

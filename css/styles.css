@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-body{
-    /*background-image: url(../img/bg_doodles.png);  */
-}
-
 nav {
     /*background-color: #000;*/
 }
@@ -21,6 +17,11 @@ nav {
     margin-left: 10px;
 }
 
+header {
+    width: auto;
+    margin: 0 auto;
+}
+
 /*main content*/
 .container {
     margin-top: 20px;
@@ -29,19 +30,12 @@ nav {
     flex-wrap: wrap;
 }
 
-header {
-    width: 70%;
-    margin: 0 auto;
-    color: #000;
-}
-
 section {
-    background-color: rgba(255, 255, 255, 0.7);
     border-radius: 10px;
     border: 0.5px solid #ccc;
-    padding: 0 5px;
+    padding: 5px 10px;
     text-align: center;  
-    height: 50px;
+    max-height: 60px;
 }
 
 section p {
@@ -63,10 +57,14 @@ section ul li {
     background-color: #e0dd33;
 }*/
 
-.input-field{
+.input-field {
     width: 20%;
     display: inline-block;
     margin: 0 15px 0 0;   
+}
+
+.input-field:hover {
+    color: aqua;
 }
 
 .select-dropdown {
@@ -175,10 +173,14 @@ footer {
 /*big screens*/
 @media (min-width: 1080px){  
     .input-field{
-        width: 30%;
+        min-width: 250px;
         display: inline-block;
         margin-right: 15px;
         margin-bottom: 0;
+    } 
+    
+    header {
+        text-align: center;
     }
 
 }
