@@ -236,15 +236,13 @@ footer {
 .img-container-profile figure .image {
     -webkit-transform: scale(1);
     transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
 }
 
 .img-container-profile:hover .image {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-}
-
-.img-container-profile .text {
-    font-size: 12px;
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
 }
 
 /*big screens*/
