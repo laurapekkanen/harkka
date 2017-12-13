@@ -261,9 +261,7 @@ footer {
     font-size: 12px;
 }
 
-.img-container-profile .overlay .text {
-    font-size: 110%;
-}
+
 
 /*post page*/
 .post-content {
@@ -336,6 +334,10 @@ footer {
 @media (max-width: 1080px){  
     header {
         text-align: center;
+    }
+    
+    .img-container-profile .overlay .text {
+        font-size: 12px;
     }
 }
 
@@ -423,6 +425,10 @@ footer {
         flex-direction: column;
     }
     
+    .img-container-profile .overlay .text {
+        font-size: 14px;
+    }
+    
     /*post*/
     .post-content {
        width: 90%;
@@ -466,3 +472,31 @@ footer {
     .img-profile {
         width: 50%;
     }
+    
+    .post-content {
+        text-align: center;
+        
+    }
+    
+    .post-content .material-icons {
+        display: none;
+    }
+    
+    .post-text {
+        flex-direction: column;  
+    }
+    
+    .post-text-profile {
+        display: block;
+        width: 40%;
+        margin: 0 auto;
+    }
+    
+    .post-description {
+        display: block;
+        width: 100%;
+        text-align: justify;
+    }
+    
+    
+}
