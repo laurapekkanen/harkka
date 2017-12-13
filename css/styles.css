@@ -237,7 +237,7 @@ footer {
 
 /*post page*/
 .post-content {
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
     margin-top: 20px;
 }
@@ -245,6 +245,12 @@ footer {
 .post {
     max-width: 100%;
     height: auto;
+}
+
+.post-text {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: row;
 }
 
 .post-text img {
@@ -255,13 +261,25 @@ footer {
 }
 
 .post-text-profile {
-    width: 10%;
-    display: inline-block;
+    width: 20%; 
+    padding: 2%;
+    text-align: center;
+    
 }
 
-.post-text.title {
-    width: 80%;
-    display: inline-block;
+.post-text-profile a {
+    color: #000;
+}
+
+.post-title {
+    width: 100%;
+    display: block;
+    padding: 0 2%;
+}
+
+.post-description {
+    width: 50%;
+    padding: 2%;
 }
 
 /*big screens*/
