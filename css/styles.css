@@ -8,6 +8,7 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    /*background-color: #efefef;*/
 }
 
 main {
@@ -16,7 +17,11 @@ main {
 
 /*nav*/
 nav {
-    /*background-color: #000;*/
+    background-color: #1a2930;
+}
+
+nav ul li:hover {
+   background-color: #446270;
 }
 
 /*fix sidenav*/
@@ -24,7 +29,7 @@ nav {
     z-index: 1;
 }
 
-.brand-logo {
+nav .brand-logo {
     margin-left: 10px;
 }
 
@@ -58,25 +63,30 @@ section p {
 }
 
 section ul li {
-    width: 250px;
-}
-
-.material-icons right {
     
 }
 
-/*section .btn {
-    background-color: #e0dd33;
-}*/
+section input.select-dropdown ul {
+    width: 50px;
+}
+
+.btn {
+    background-color: #f7ce3e;
+    padding: 0 10px;
+}
+
+.btn:hover {
+    background-color: #e8b810;
+}
 
 .input-field {
-    width: 20%;
+    width: 200px;
     display: inline-block;
     margin: 0 15px 0 0;   
 }
 
 .input-field:hover {
-    color: aqua;
+    color: #c5c1c0;
 }
 
 .select-dropdown {
@@ -85,6 +95,10 @@ section ul li {
 
 .select-wrapper input.select-dropdown {
     border-bottom: none;
+}
+
+.dropdown-content li>span {
+    color: #f7ce3e;
 }
 
 /*images*/
@@ -174,12 +188,24 @@ figure {
 }
 
 .text a:hover {
-    color: #e0dd33;
+    color: #565656;
 }
 
 footer {
     margin-top: 50px;
     padding-bottom: 15px;
+}
+
+.page-footer {
+    background-color: #1a2930;
+}
+
+.heart:hover {
+    color: #db0404;
+}
+
+.heart:active{
+    color: #db0404;
 }
 
 /*profile page*/
@@ -235,6 +261,10 @@ footer {
     font-size: 12px;
 }
 
+.img-container-profile .overlay .text {
+    font-size: 110%;
+}
+
 /*post page*/
 .post-content {
     width: 60%;
@@ -275,6 +305,12 @@ footer {
     width: 100%;
     display: block;
     padding: 0 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-title a {
+    color: #000;
 }
 
 .post-description {
@@ -285,7 +321,7 @@ footer {
 /*big screens*/
 @media (min-width: 1080px){  
     .input-field{
-        min-width: 250px;
+        min-width: 225px;
         display: inline-block;
         margin-right: 15px;
         margin-bottom: 0;
@@ -294,24 +330,42 @@ footer {
     header {
         text-align: center;
     }
+    
+}
+
+@media (max-width: 1080px){  
+    header {
+        text-align: center;
+    }
 }
 
 /*medium screens*/
 @media (max-width: 992px){
     /*index*/
+    h2 {
+        
+    }
+    
     .img-container{
         width: 50%;
     }
     
     nav .input-field {
         width: 80%;
-        /*padding: 0 32px;*/
         margin: 0 32px;
+    }
+    
+    nav ul li:hover {
+       background-color: #e2e2e2;
     }
     
     .input-field label {
         font-size: 14px;
         font-weight: 500;
+    }
+    
+    .input-field:hover {
+        color: transparent;
     }
     
     nav .btn {
@@ -367,6 +421,16 @@ footer {
         width: 100%;
         padding: 5%;
         flex-direction: column;
+    }
+    
+    /*post*/
+    .post-content {
+       width: 90%;
+        
+    }
+    
+    .post-description {
+        width: 60%;
     }
 }
 
