@@ -19,4 +19,16 @@ Harjoitustyön olisi voinut aloittaa omalta osalta hieman aiemmin. Tuntui, että
 
 <b>Resursointi</b>
 
-Github gh-pages       1h
+Github gh-pages   1h
+Materialize käyttöönotto  1h
+Etusivu   5h
+Hover animaatiot  2h
+Profiili sivu  3h
+Postaus sivu  3h
+Värit   1h
+Raportointi ja viimeistely 1h
+Yhteensä    17h
+
+<b>Arvosana-ehdotus</b>
+
+Arvosanakseni ehdottaisin 3.
