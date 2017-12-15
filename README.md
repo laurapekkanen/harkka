@@ -13,7 +13,7 @@ Otin myös flexboxin käyttöön muutamassa kohtaa, kun divit piti saada vierekk
 
 <b>Yleisiä mietteitä työn kulusta ja mitä tuli opittua</b>
 
-Aloitin harjoitustyön nollasta. En valinnut mitään valmista teemaa, jota olisin lähtenyt muuttamaan, vaan rakensin sivun kokonaan itse. Etusivun kuville tein hover efektit css animoinnilla itse.
+Aloitin harjoitustyön nollasta. En valinnut mitään valmista teemaa, jota olisin lähtenyt muuttamaan, vaan rakensin sivun kokonaan itse. Kuville tein itse hover efektit css animoinnilla.
 
 Materializin avulla lisäilin sivulle navigaation, valintapalkin, footerin, ikonit ja muita helpottavia classeja omille elementeilleni. Käteviä lisätä olivat muun muassa kuvan pyöristys ja divin sisällön keskittäminen pystysuunnassa.
 
