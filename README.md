@@ -7,13 +7,15 @@ Palvelussa pystyy selaileemaan muiden käyttäjien jukaisemia kuvia ja kommentoi
 
 <b>Teknologiavalinnat</b>
 
-Aloitin työstämään harjoitustyötä Materialize -frameworkin avulla. Halusin kokeilla jotain muuta kuin Bootsrapia ja Materialize vaikutti helpolta käyttää. Elemnettejä oli helppo lisätä classien avulla ja niitä oli melko helppo muokata oman näköiseksi.
+Aloitin työstämään harjoitustyötä Materialize css -frameworkin avulla. Halusin kokeilla jotain muuta kuin Bootsrapia ja Materialize vaikutti helpolta käyttää. Elemnettejä oli helppo lisätä classien avulla ja niitä oli melko helppo muokata oman näköiseksi.
 
 Otin myös flexboxin käyttöön muutamassa kohtaa, kun divit piti saada vierekkäin. Esimerkiksi postaussivulla profiilikuva ja description teksto ovat vierekkäin flex-directionin avulla. Yritin käyttää flexboxia laajemminkin, mutta se levitti koko sivun sisällön vaakasuuntaan, enkä oikein saanut sitä enää toimimaan.
 
 <b>Yleisiä mietteitä työn kulusta ja mitä tuli opittua</b>
 
-Aloitin harjoitustyön nollasta. En valinnut mitään valmista teemaa, jota olisin lähtenyt muuttamaan, vaan rakensin sivun kokonaan itse. Etusivun kuville tein hover efektit css animoinnilla.
+Aloitin harjoitustyön nollasta. En valinnut mitään valmista teemaa, jota olisin lähtenyt muuttamaan, vaan rakensin sivun kokonaan itse. Etusivun kuville tein hover efektit css animoinnilla itse.
+
+Materializin avulla lisäilin sivulle navigaation, valintapalkin, footerin ja muita helpottavia classeja omille elementeilleni. Käteviä lisätä olivat kuvan pyöristys ja divin sisällön keskittäminen pystysuunnassa.
 
 Harjoitustyötä tehdessä opin käyttämään ainakin Materialize -frameworkia. Sen käyttö oli helppoa ja siihen löytyi hyvät ohjeet. Framework oli mukava käyttää. Css animaatioista opin myös enemmän. Varsinkin hover efektien kanssa leikkiminen alkoi sujua.
 
