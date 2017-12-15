@@ -15,13 +15,15 @@ Otin myös flexboxin käyttöön muutamassa kohtaa, kun divit piti saada vierekk
 
 Aloitin harjoitustyön nollasta. En valinnut mitään valmista teemaa, jota olisin lähtenyt muuttamaan, vaan rakensin sivun kokonaan itse. Etusivun kuville tein hover efektit css animoinnilla itse.
 
-Materializin avulla lisäilin sivulle navigaation, valintapalkin, footerin ja muita helpottavia classeja omille elementeilleni. Käteviä lisätä olivat kuvan pyöristys ja divin sisällön keskittäminen pystysuunnassa.
+Materializin avulla lisäilin sivulle navigaation, valintapalkin, footerin, ikonit ja muita helpottavia classeja omille elementeilleni. Käteviä lisätä olivat muun muassa kuvan pyöristys ja divin sisällön keskittäminen pystysuunnassa.
 
 Harjoitustyötä tehdessä opin käyttämään ainakin Materialize -frameworkia. Sen käyttö oli helppoa ja siihen löytyi hyvät ohjeet. Framework oli mukava käyttää. Css animaatioista opin myös enemmän. Varsinkin hover efektien kanssa leikkiminen alkoi sujua.
 
 Harjoitustyön olisi voinut aloittaa omalta osalta hieman aiemmin. Tuntui, että lopullinen ohjeistus tuli aika myöhään ja itse en ainkaan osannut aloittaa aiemmin harjoitustyön tekemistä.
 
 <b>Resursointi</b>
+
+En pitänyt tarkkaa kirjaa tehdyistä tunneista, mutta tässä karkea arvio.
 
 Github gh-pages   1h<br>
 Materialize käyttöönotto  1h<br>
@@ -35,4 +37,4 @@ Yhteensä    17h
 
 <b>Arvosana-ehdotus</b>
 
-Arvosanakseni ehdottaisin 3.
+Arvosanakseni ehdottaisin 3. Harjoitustyössä on käytin frameworkia ja jonkin verran flexboxia. Hyödynsin myös css animaatioita. En kuitenkaan käyttänyt SASSia tai LESSiä. Sivusto jäi alkuperäistä suunnitelmaa pienemmäksi ja siinä onkin vain 3 sivua. Sivut ovat hyvin skaalautuvia ja toimivat uusimmalla selaimilla.
